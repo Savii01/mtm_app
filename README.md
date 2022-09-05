@@ -3,7 +3,7 @@
 WHAT I COULD HAVE DONE BETTER***
 1. work on the get request by Id
 2. Make a unique Management and expense table for each artist, this is probably 
-because i'm still to understand how to use Axios GET request by id.
+because i'm yet to understand how to use Axios GET request by id.
 3. Work on the error status and messages, and also validation response to users on the application.
 
 SHORT CUTS
