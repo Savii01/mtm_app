@@ -1,7 +1,6 @@
 import './eventOrgUpdate.css'
 import axios from 'axios'
 import React from 'react';
-import {toast} from 'react-toastify'
 import { useState} from "react";
 
 
@@ -98,7 +97,7 @@ export default function EventOrgUpdate() {
     <button className="CreateButton" type="submit" 
     onClick={handleSubmit}
     disabled ={loading}>
-        {loading?'Loading':'Create'}</button>
+        {loading?'Loading':'Update'}</button>
         </div>
     </div>        
     )

@@ -29,7 +29,7 @@ export default function Address() {
   }
 
   const columns = [
-    { field: 'addressID', headerName: 'addressID',width: 90, },
+    { field: 'addressID', headerName: 'addressID',width: 90 },
     { field: 'city', headerName: 'city', width: 130 },
     { field: 'state', headerName: 'state', width: 130 },
     { field: 'country', headerName: 'country', width: 130 },

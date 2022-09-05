@@ -1,7 +1,5 @@
 import './sideBar.css'
-import{LineStyleOutlined,LocationSearching,AccountBalanceWallet
-    ,Announcement, Work, Person,Payment
-    ,LibraryBooks, Receipt,AttachMoney,Event} from '@material-ui/icons'
+import{LocationSearching,AccountBalanceWallet, Person,Payment, Receipt,AttachMoney,Event} from '@material-ui/icons'
 import{Link} from "react-router-dom"
 
 export default function SideBar() {

@@ -41,8 +41,7 @@ import ManagementUpdate from './pages/management/managementUpdate/managementUpda
 import ManagerUpdate from './pages/manager/managerUpdate/managerUpdate';
 import NewsUpdate from './pages/news/newsUpdate/newsUpdate';
 import RecArtistUpdate from './pages/recArtist/recArtistUpdate/recArtistUpdate';
-
-
+import AcctUpdate from './pages/acctDetails/acctUpdate/acctUpdate'
 
 class App extends Component {
   constructor(props){
@@ -111,6 +110,8 @@ class App extends Component {
     <Route path="/manager/:managerID" element={<ManagerUpdate />}/>
     <Route path="/news/:newsID" element={<NewsUpdate />}/>
     <Route path="/recArtist/:recArtistID" element={<RecArtistUpdate />}/>
+    <Route path="/acctdetails/:acctdetailsID" element={<AcctUpdate />}/>
+
     </Routes>
     </div>
      </Router>

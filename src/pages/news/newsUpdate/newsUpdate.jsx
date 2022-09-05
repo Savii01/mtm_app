@@ -1,8 +1,7 @@
 import './newsUpdate.css'
 import axios from 'axios'
 import React from 'react';
-import {toast} from 'react-toastify'
-import { useState, useEffect} from "react";
+import { useState} from "react";
 
 
 export default function NewsUpdate() {
@@ -90,7 +89,7 @@ export default function NewsUpdate() {
     <button className="CreateButton" type="submit" 
     onClick={handleSubmit}
     disabled ={loading}>
-        {loading?'Loading':'Create'}</button>
+        {loading?'Loading':'Update'}</button>
         </div>
     </div>        
     )

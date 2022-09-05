@@ -26,7 +26,7 @@ export default function AddressUpdate() {
             country: country,
         }
 
-        axios.put(`http://localhost:8080/api/address/${addressID}`, data)
+        axios.put(`http://localhost:8080/api/Address/${addressID}`, data)
         .then (res =>{
             setData(res.data);
             setaddressID('');

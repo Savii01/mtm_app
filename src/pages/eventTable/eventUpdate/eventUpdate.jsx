@@ -1,7 +1,7 @@
 import './eventUpdate.css'
 import axios from 'axios'
 import React from 'react';
-import { useState, useEffect} from "react";
+import { useState} from "react";
 
 
 export default function EventUpdate() {
@@ -116,7 +116,7 @@ export default function EventUpdate() {
     <button className="CreateButton" type="submit" 
     onClick={handleSubmit}
     disabled ={loading}>
-        {loading?'Loading':'Create'}</button>
+        {loading?'Loading':'Update'}</button>
         </div>
     </div>        
     )

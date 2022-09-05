@@ -1,8 +1,7 @@
 import './managerUpdate.css'
 import axios from 'axios'
 import React from 'react';
-import {toast} from 'react-toastify'
-import { useState, useEffect} from "react";
+import { useState} from "react";
 
 
 export default function ManagerUpdate() {
