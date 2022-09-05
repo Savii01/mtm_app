@@ -42,7 +42,7 @@ export default function AcctDetails() {
         renderCell: (params) =>{
             return(
                 <>
-                <Link to={"/acctDetails/"+params.row.id}>
+                <Link to={"/acctDetails/"+params.row.accountID}>
                     <button className="acctDetailsEdit">Edit</button>
                 </Link>
                    <Delete className="acctDetailsDelete" onClick ={()=> handleDelete(params.row.accountID)}/>
