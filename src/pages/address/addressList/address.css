@@ -1,0 +1,39 @@
+.address{
+    flex:4
+}
+
+.addressEdit{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: blue;
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.addressDelete{
+    color: red;
+    cursor: pointer;
+}
+
+.addaddressButton{
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    font-weight: 16px;
+}
+
+.Caddress{
+    display: flex;
+    justify-content: space-between;
+    margin:10px 20px;
+    align-content: center;
+}
+
+.table{
+    margin: 0 20px;
+}

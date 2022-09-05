@@ -1,0 +1,103 @@
+.newsUpdate{
+    flex: 4;
+    padding: 40px;
+   align-items: center;
+}
+.newsUpdateContainer{
+    border-radius: 10px;
+    box-shadow:1px -1px 5px rgba(29, 29, 29, 0.384);
+    padding: 30px;
+    width: 520px;
+}
+
+.topTitle{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: blue;
+    margin-bottom: 20px;
+    border-bottom: 1px solid darkblue;
+}
+
+.newsUpdateTitle{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.newsUpdateLeft{
+    display: flex;
+}
+
+.newsUpdateItem{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 0 10px
+}
+
+.newsUpdateItem>label{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.newsUpdateInput{
+    border: none;
+    width: 200px;  
+    border-bottom: 1px solid grey;
+    padding: 10px;
+    height:30px;
+}
+
+.flex1{
+    margin-right: 30px;
+}
+.flex2{
+    margin-right: 30px;
+}
+
+.CreateButton{
+    margin: 30px 0 0 0;;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    font-weight: 16px;
+}
+
+.CreateButton:hover{
+    background-color: rgb(8, 8, 168);
+    cursor: pointer;
+}
+
+.AddressGender{
+    display: flex;
+}
+
+.AddressGender>label{
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.newsUpdateInputGender{
+    margin-right: 10px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    border-bottom: 1px solid #000;
+    padding: 20px;
+    font-weight: 16px;
+}
+
+
+.container{
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+
+.newsUpdateActive>label{
+   margin-right: 20px;
+
+}

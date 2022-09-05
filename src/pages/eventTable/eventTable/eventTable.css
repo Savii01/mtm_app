@@ -1,0 +1,39 @@
+.eventTable{
+    flex:4
+}
+
+.eventTableEdit{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: blue;
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.eventTableDelete{
+    color: red;
+    cursor: pointer;
+}
+
+.addeventTableButton{
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    font-weight: 16px;
+}
+
+.CeventTable{
+    display: flex;
+    justify-content: space-between;
+    margin:10px 20px;
+    align-content: center;
+}
+
+.table{
+    margin: 0 20px;
+}

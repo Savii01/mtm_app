@@ -1,0 +1,39 @@
+.invoice{
+    flex:4
+}
+
+.invoiceEdit{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: blue;
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.invoiceDelete{
+    color: red;
+    cursor: pointer;
+}
+
+.addinvoiceButton{
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    font-weight: 16px;
+}
+
+.Cinvoice{
+    display: flex;
+    justify-content: space-between;
+    margin:10px 20px;
+    align-content: center;
+}
+
+.table{
+    margin: 0 20px;
+}
